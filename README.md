@@ -1,5 +1,7 @@
 # 테트리스 (교육용)
 
+**▶ [지금 플레이하기](https://ministar72-droid.github.io/tetris-cursor/)**
+
 HTML, CSS, JavaScript만으로 만든 브라우저 테트리스 게임입니다.  
 빌드 도구나 외부 라이브러리 없이 동작하며, 입문자가 게임 로직을 단계별로 학습할 수 있도록 구성했습니다.
 
