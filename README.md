@@ -20,11 +20,11 @@ index.html → 브라우저에서 열기
 
 ### GitHub Pages에서 실행
 
-배포 후 아래 주소 형식으로 접속한다.
+배포된 게임은 아래 주소에서 플레이할 수 있다.
 
-```
-https://<GitHub-사용자명>.github.io/<저장소-이름>/
-```
+**https://ministar72-droid.github.io/tetris-cursor/**
+
+저장소: https://github.com/ministar72-droid/tetris-cursor
 
 ## 조작법
 
@@ -122,20 +122,20 @@ git init
 git add index.html style.css script.js README.md
 git commit -m "feat: 테트리스 게임 초기 배포"
 git branch -M main
-git remote add origin https://github.com/<사용자명>/<저장소-이름>.git
+git remote add origin https://github.com/ministar72-droid/tetris-cursor.git
 git push -u origin main
 ```
 
 ### 2. GitHub Pages 활성화
 
-1. GitHub 저장소 → **Settings** → **Pages**
+1. https://github.com/ministar72-droid/tetris-cursor/settings/pages
 2. **Build and deployment** → **Source**: `Deploy from a branch`
 3. **Branch**: `main` / **Folder**: `/ (root)`
 4. **Save** 클릭
 
 ### 3. 배포 확인
 
-- 1~2분 후 `https://<사용자명>.github.io/<저장소-이름>/` 에 접속한다.
+- 1~2분 후 https://ministar72-droid.github.io/tetris-cursor/ 에 접속한다.
 - 게임 보드·조작·점수가 로컬과 동일하게 동작하는지 확인한다.
 
 ### 배포 시 주의사항
