@@ -1,0 +1,17 @@
+# IDE / 에디터
+.cursor/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 환경·비밀
+.env
+.env.*
+
+# 의존성 (추후 추가 시)
+node_modules/
